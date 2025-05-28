@@ -212,3 +212,7 @@ export async function POST(req) {
     return Response.json({ error: "Server error." }, { status: 500 });
   }
 }
+
+export function GET() {
+  return Response.json({ error: "Method Not Allowed" }, { status: 405 });
+}
