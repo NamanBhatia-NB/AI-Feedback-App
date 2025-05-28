@@ -214,7 +214,7 @@ export default function Feedback() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg h-full flex items-center justify-center">
               <div className="text-center text-gray-500 dark:text-gray-400">
                 <MessageSquare className="h-16 w-16 mx-auto mb-4 opacity-50" />
-                <p className="text-lg">Enter feedback and click "Analyze Feedback" to see results here</p>
+                <p className="text-lg">Enter feedback and click &quot;Analyze Feedback&quot; to see results here</p>
               </div>
             </div>
           )}
