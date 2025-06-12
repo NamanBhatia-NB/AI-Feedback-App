@@ -53,7 +53,7 @@ export async function POST(req) {
     };
 
     // Check if API key is valid and try to call Gemini API
-    if (apiKey && apiKey !== "YOUR_ACTUAL_GEMINI_API_KEY_HERE") {
+    if (apiKey) {
       try {
         // Step 2: Use Gemini API for generating customer response and extracting insights
         const prompt = `
