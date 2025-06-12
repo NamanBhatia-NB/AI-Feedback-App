@@ -118,5 +118,3 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License.
 
 ---
-
-**Made with ❤️ by [Dhruv Rankoti](https://github.com/Dhruv-Rankoti)**
