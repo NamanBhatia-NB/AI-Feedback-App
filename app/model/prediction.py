@@ -8,8 +8,8 @@ import joblib
 # kw_model = KeyBERT()
 # vectorizer = joblib.load('tfidf_vectorizer.pkl')
 # model = joblib.load('best_sentiment_model.pkl')
-vectorizer = joblib.load('C:\\Users\\Dhruv\\Desktop\\Project_Development\\HackCraft\\AI-Feedback-App\\app\\model\\tfidf_vectorizer.pkl')
-model = joblib.load('C:\\Users\\Dhruv\\Desktop\\Project_Development\\HackCraft\\AI-Feedback-App\\app\\model\\best_sentiment_model.pkl')
+vectorizer = joblib.load('/models/tfidf_vectorizer.pkl')
+model = joblib.load('/models/best_sentiment_model.pkl')
 
 # Stopwords (same as original)
 # Define a more comprehensive set of stopwords
